@@ -34,7 +34,6 @@ Ma.addEventListener("click", e =>{
     }).then(prom =>{
         return prom.json();
     }).then(result =>{
-        console.log(result)
         alert(output.message)
     })
 })
